@@ -22,5 +22,99 @@ White: hsl(0, 0%, 100%)
 
 html {
     font-size: 15px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Spartan', sans-serif; 
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+}
+
+.description {
+    color: hsl(303, 10%, 53%);
+}
+
+
+
+.rate1 , .rate2 , .rate3 {
+    background: hsl(300, 24%, 96%);
+}
+
+span {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.star {
+    background: url(./images/icon-star.png);
+    width: 85px;
+    height: 16px;
+}
+
+.box1 , .box2 , .box3 {
+    background: hsl(300, 43%, 22%);
+    padding: 35px 30px 40px 30px;
+    width: 335px;
+    border-radius: 8px;
+}
+
+.ava {
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+}
+
+h4 {
+    color: white;
+    display: inline;
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+    padding-top: 3px;
+}
+
+.buyername {
+    padding-top: 8px;
+    padding-left: 70px;
+}
+
+.paragraph {
+    color: hsl(300, 24%, 96%);
+    display: inline-block;
+    padding-top: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    /* MOBILE DISPLAY */
+    .desktoptop , .desktopbottom {
+        display: none;
+    }
+
+    html {
+        display: flex;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 501px) {
+    /* DESKTOP DISPLAY */
+    .mobiletop , .mobilebottom {
+        display: none;
+    }
+
+
+    span {
+        padding-left: 20px;
+    }
+
+    .star {
+        display: inline-block;
+    }
 }
