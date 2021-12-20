@@ -27,6 +27,8 @@ html {
 
 h1 {
     color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    width: 420px;
 }
 
 .description {
@@ -97,6 +99,21 @@ h4 {
     html {
         display: flex;
     }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rate1 , .rate2 , .rate3 {
+        width: ;
+    }
+
+    .box2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
 
 
@@ -116,5 +133,12 @@ h4 {
 
     .star {
         display: inline-block;
+    }
+
+    .box1 , .box2 , .box3 {
+        background: hsl(300, 43%, 22%);
+        padding: 35px 30px 40px 30px;
+        width: 335px;
+        border-radius: 8px;
     }
 }
