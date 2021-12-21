@@ -23,6 +23,7 @@ White: hsl(0, 0%, 100%)
 html {
     font-size: 15px;
     font-family: 'Spartan', sans-serif; 
+    background-color: white;
 }
 
 h1 {
@@ -90,39 +91,102 @@ h4 {
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
     /* MOBILE DISPLAY */
     .desktoptop , .desktopbottom {
         display: none;
     }
 
+    
+
     html {
         display: flex;
+        width: 100%;
+        height: 100%;
+        zoom: 0.7;
     }
 
-    .content {
+    body {
         display: flex;
         flex-direction: column;
+        margin: auto;
+    }
+
+    .mobiletop {
+        position: absolute;
+        width: 370px;
+
+        box-sizing: border-box;
+        padding: 0px;
+        
+        left: 25vw;
+    }
+
+
+    .content {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 35px;
+        width: 345px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .description {
+        width: 345px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .rate1 , .rate2 , .rate3 {
-        width: ;
+        width: 310px;
+        padding: 15px 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .star {
+        margin: auto;
+    }
+    
+    span {
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    
     .box2 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
+    .box1 , .box2 , .box3 {
+        width: 310px;
+    }
+
+    .boxes {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
 }
 
 
 
 
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 421px) {
     /* DESKTOP DISPLAY */
-    .mobiletop , .mobilebottom {
+    .mobiletop {
         display: none;
     }
 
