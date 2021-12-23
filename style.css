@@ -48,8 +48,11 @@ span {
 
 .star {
     background: url(./images/icon-star.png);
-    width: 85px;
+
+    width: 17px;
     height: 16px;
+
+    margin-right: 5px;
 }
 
 .box1,
@@ -91,7 +94,7 @@ h4 {
 
 @media screen and (min-width: 421px) {
     /* DESKTOP DISPLAY */
-    .mobiletop {
+    .mobiletop , .mobilebottom {
         display: none;
     }
 
@@ -166,7 +169,7 @@ h4 {
     .rate1,
     .rate2,
     .rate3 {
-        width: 450px;
+        width: 425px;
         padding: 20px 30px;
         border-radius: 8px;
     }
@@ -220,12 +223,24 @@ h4 {
 
     .mobiletop {
         position: absolute;
-        width: 370px;
+        width: 100%;
 
         box-sizing: border-box;
         padding: 0px;
 
-        left: 25vw;
+        left: 0;
+    }
+
+    .mobilebottom {
+        box-sizing: border-box;
+        padding: 0px;
+
+        position: absolute;
+        width: 100%;
+
+        bottom: -100%;
+        right: 0;
+        
     }
 
     .content {
@@ -264,10 +279,11 @@ h4 {
 
     .star {
         margin: auto;
+        display: inline-block;
     }
 
     span {
-        display: inline-block;
+        display: block;
         padding-top: 15px;
     }
 
