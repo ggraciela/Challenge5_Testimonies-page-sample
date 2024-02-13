@@ -1,12 +1,8 @@
 # About
-5th practice project [HTML / CSS] from FrontEnd Mentor
+5th FrontEnd Mentor reverse engineering challenge 
+[HTML / CSS] 
 
-Completed in: ~5h 50mins
-<br />
-Over the span of 6 days
-<br />
-<br />
-<br />
+
 
 Screenshot of final result:
 <img width="1440" alt="Final desktop social-proof-section-master" src="https://user-images.githubusercontent.com/94437215/147200126-1eefcccb-b734-40ad-a6ca-7ec8c496dae4.png">
