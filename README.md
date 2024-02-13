@@ -1,6 +1,10 @@
 # About
 5th FrontEnd Mentor reverse engineering challenge 
-[HTML / CSS] 
+
+* HTML
+* CSS
+* CSS grid
+* Media query ( scalability )
 
 
 
